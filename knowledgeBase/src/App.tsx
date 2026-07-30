@@ -1,10 +1,13 @@
+import SearchBox from "./components/SearchBox"
 
-import ProductWiseShowcaseNavigation from './components/ProductWiseShowcaseNavigation'
+// import ProductWiseShowcaseNavigation from './components/ProductWiseShowcaseNavigation'
 const App = () => {
   return (
     <div>
       
-      <ProductWiseShowcaseNavigation />
+      {/* <ProductWiseShowcaseNavigation /> */}
+
+      <SearchBox/>
 
 
     </div>

@@ -1,27 +1,24 @@
-import { InfoIcon } from "lucide-react"
+import { Search } from "lucide-react"
 
-import { Field, FieldLabel } from "@/components/ui/field"
+import { Field} from "@/components/ui/field"
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
-  InputGroupText,
+
 } from "@/components/ui/input-group"
 
 
 const SearchBox = () => {
   return (
-    <div>
-    <Field>
-      <FieldLabel htmlFor="input-group-url">Website URL</FieldLabel>
-      <InputGroup>
-        <InputGroupInput id="input-group-url" placeholder="example.com" />
-        <InputGroupAddon>
-          <InputGroupText>https://</InputGroupText>
+    <div className="bg-teal-100 h-screen flex justify-center items-center">
+    <Field className="w-xl  ">
+      <InputGroup className="rounded-[8px] bg-white h-15 gap-2 px-4 ">
+        <InputGroupAddon align="inline-start" className="h-7">
+          <Search className="" />
         </InputGroupAddon>
-        <InputGroupAddon align="inline-end">
-          <InfoIcon />
-        </InputGroupAddon>
+        <InputGroupInput id="input-group-url" placeholder="What do you wanna learn about today?" className="h-7 " />
+        
       </InputGroup>
     </Field>
     </div>
