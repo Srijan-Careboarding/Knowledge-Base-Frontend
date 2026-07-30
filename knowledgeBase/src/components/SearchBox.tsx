@@ -1,4 +1,5 @@
 import { InfoIcon } from "lucide-react"
+
 import { Field, FieldLabel } from "@/components/ui/field"
 import {
   InputGroup,
@@ -28,3 +29,5 @@ const SearchBox = () => {
 }
 
 export default SearchBox
+
+
