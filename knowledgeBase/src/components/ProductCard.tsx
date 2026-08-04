@@ -6,7 +6,7 @@ import {
 } from "@/components/ui/card"
 
 
-export interface ProductCardProps {
+ interface ProductCardProps {
   title: string;
   description: string;
   imageSrc: string;

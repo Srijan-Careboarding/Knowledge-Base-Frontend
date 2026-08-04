@@ -47,8 +47,8 @@ const ProductWiseShowcaseNavigation = () => {
     
     <div className="relative min-h-screen bg-gray-50">
 
-      {/* Bg image just for testing purpose, will be removed later */}
-      <img src="src/assets/4.svg" alt="" />
+      {/* Bg image just for testing purpose, will be removed later
+      <img src="src/assets/4.svg" alt="" /> */}
 
       {isModalOpen && (
       <div className=" fixed inset-0 flex justify-center items-center z-50 bg-black/50 backdrop-blur-sm p-4">        
