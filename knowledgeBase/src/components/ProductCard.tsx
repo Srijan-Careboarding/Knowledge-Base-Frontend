@@ -33,7 +33,7 @@ export const ProductCard = ({ title, description, imageSrc, bgColor, link = "#" 
 
       {/* Bottom Section */}
       <div className="bg-white w-[290.67px] h-22.5">
-        <CardHeader className="p-4 ">
+        <CardHeader className="p-4 "> 
           <CardTitle className="text-[16px] font-semibold font-sans text-gray-950">{title}</CardTitle>
           <CardDescription className="text-[12px] text-gray-600 font-normal leading-relaxed">
             {description}   

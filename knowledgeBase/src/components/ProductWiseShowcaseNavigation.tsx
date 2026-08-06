@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { ProductCard } from "./ProductCard"
 import { X } from "lucide-react"
 import { useState } from "react"
-
+import { ProductData } from "@/Data"
 
 const ProductWiseShowcaseNavigation = () => {
 
@@ -12,34 +12,7 @@ const ProductWiseShowcaseNavigation = () => {
     setIsModalOpen(false);
   };
 
- const ProductData = [
-  {
-    id: "clinical",
-    title: "Clinical Module",
-    description: "Manage help content for clinical workflows and patient care.",
-    imageSrc: "src/assets/Image.svg",
-    bgColor: "#FFF7ED",
-    link: "",
-  },
-  {
-    id: "agency",
-    title: "Agency Management Module",
-    description: "Manage articles for agency operations and administration workflows.",
-    imageSrc: "src/assets/Image (1).svg",
-    bgColor: "#F2FCFC",
-    link: "",
-  },
-  {
-    id: "revenue",
-    title: "Revenue Cycle Management",
-    description: "Manage documentation for billing, claim, and revenue cycle management.",
-    imageSrc: "src/assets/Image (2).svg",
-    bgColor: "#F0FDF4",
-    link: "",
-  },
-  
-  
-];
+
   
 
   return (
